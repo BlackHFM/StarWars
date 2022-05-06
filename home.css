@@ -1,10 +1,10 @@
-
+/* background image for normal mode */
 body {
         background-image: url("star-wars-3.jpg");
         background-color: black;
         background-size: cover;
         background-repeat: no-repeat;}
-
+/* background color for smaller screen than laptop */
 @media screen and (max-width: 1320px) {
     body{
     background-repeat: repeat;
@@ -12,6 +12,7 @@ body {
     }
     
 }
+/* background color for bigger screen than laptop */
 @media screen and (min-width: 1540px) {
     body{
     background-repeat: no-repeat;
@@ -22,29 +23,28 @@ body {
 
 
 .centerposition {
-    
+    /* put in center position */
     position: fixed;
     background-color: rgb(39, 31, 30);
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
+
     width: 50%;
     height: 70%;
+
+    /* setting for border */
     border: 2px solid white;
     border-radius: 90px;
     padding: 5px 25px 25px;
 
+    /* devide background to two piece */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
+/* color for h1 */
 .header {
     color: white;
-}
-
-.right {
-   
-    
 }
