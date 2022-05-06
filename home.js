@@ -22,7 +22,7 @@ async function renderMovies() {
         item[i] = document.createElement('li');
         item[i].innerHTML = `<div class="t${i}">
                             <h3 style="display:inline-block"> ${movie.title} ${movie.episode_id} ${movie.release_date} </h3> 
-                            <button class="b${i}" type="button" onclick="" style="position:fixed;right: 50px;color:orange;padding:0; border: none; background: none;"> Starships </button>
+                            <button class="b${i}" type="button" style="position:fixed;right: 50px;color:orange;padding:0; border: none; background: none;"> Starships </button>
                             </div>`;
         item[i].style.color = 'white'
 
